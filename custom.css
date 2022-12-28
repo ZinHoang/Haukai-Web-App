@@ -15,3 +15,7 @@
   color: dimgray;
   text-decoration: overline;
 }
+
+.bi bi-search {
+  position: relative;
+}
