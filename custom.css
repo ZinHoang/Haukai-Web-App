@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 /*RESPONSIVE*/
 @media (max-width: 991px) {
   .contact-form {
@@ -8,8 +12,46 @@
     height: 400px;
   }
 }
-a {
-  text-decoration: none;
+
+@media (min-width: 991px) {
+  .footer {    
+    bottom: 0;
+    margin: auto;    
+  }  
+}
+
+/* FOOTER */
+footer {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1rem solid #3e485c;   
+}
+
+footer ul {  
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.fa-facebook {
+color: #3b5998;
+}
+.fa-twitter {
+color: #55acee;
+}
+.fa-instagram {
+color: #ac2bac;
+}
+.fa-youtube {
+color: #ed302f;
+}
+
+/* NAVIGATION BAR */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active {  
+    color: #ffc107;  
 }
 
 /* CONTACT PAGE */
@@ -57,10 +99,7 @@ a {
   text-decoration: overline;
 }
 
-footer {
-  text-align: center;  
-}
-
+/* CALENDAR PAGE */
 #calendar {
   max-width: 1100px;
   margin: 40px auto;
@@ -85,7 +124,7 @@ footer {
   font-family: 'Montserrat', sans-serif;
   background-image: url('https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.png');
   background-size: cover;
-  background-position: center;
+  background-position: center;  
 }
 
 #booking::before {
@@ -209,6 +248,10 @@ footer {
 /* MENU PAGE */
 .nav-pills .nav-item .active {
   border-bottom: 2px solid #ffc107;
+}
+
+.tab-content img {
+  width: 80px;;
 }
 
 /* GIFT CARD PAGE */
