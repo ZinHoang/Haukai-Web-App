@@ -30,7 +30,6 @@
             <a href="index.html" class="nav-item nav-link active">Home</a>
             <a href="menu.html" class="nav-item nav-link">Menu</a>
             <a href="reservation.html" class="nav-item nav-link">Reservation</a>
-            <a href="recipes.html" class="nav-item nav-link">Recipes</a>
             <a href="gift-card.html" class="nav-item nav-link">Gift Card</a>
             <a href="about.html" class="nav-item nav-link">About</a>
             <a href="hours.html" class="nav-item nav-link">Hours</a>
@@ -66,10 +65,21 @@
             <div class="col-md-4 col-md-pull-7">
               <div class="booking-form">
                 <form>
-                  <div class="form-group">
-                    <span class="form-label">Dietary requirements</span>
-                    <input class="form-control" type="text" placeholder="Enter a destination or hotel name">
-                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Name</span>
+                        <input class="form-control" type="text" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Phone number</span>
+                        <input class="form-control" type="tel" placeholder="Enter your number" required>
+                      </div>
+                    </div>
+                    </div>
+
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -77,11 +87,17 @@
                         <input class="form-control" type="date" required>
                       </div>
                     </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Time</span>
+                        <input class="form-control" type="time" required>
+                      </div>
+                    </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <span class="form-label">How many people are coming?</span>
+                        <span class="form-label">Number of people</span>
                         <select class="form-control">
                           <option>1</option>
                           <option>2</option>
@@ -92,7 +108,10 @@
                         <span class="select-arrow"></span>
                       </div>
                     </div>
-
+                  </div>
+                  <div class="form-group">
+                    <span class="form-label">Dietary requirements</span>
+                    <input class="form-control" type="text" placeholder="List any special dietary requests">
                   </div>
                   <div class="form-btn">
                     <button class="submit-btn">Check availability</button>
@@ -113,4 +132,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="switch.js"></script>
 </body>
+
 </html>
