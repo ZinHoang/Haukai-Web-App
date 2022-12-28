@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Menu - Haukai</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+  <!-- Icon Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <div class="container-xxl p-0">
+    <div class="container-xxl position-relative p-0 mt-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="text-warning m-0"><i class="fa-sharp fa-solid fa-bowl-rice me-3"></i>Haukai</h1>
+          <!-- <img src="https://i.imgur.com/gQ6Zaxc.png" width=100 alt=" Logo of Haukai restaurant"> -->
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="fa fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0 pe-4">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="menu.html" class="nav-item nav-link">Menu</a>
+            <a href="reservation.html" class="nav-item nav-link">Reservation</a>
+            <a href="recipes.html" class="nav-item nav-link">Recipes</a>
+            <a href="gift-card.html" class="nav-item nav-link">Gift Card</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="hours.html" class="nav-item nav-link">Hours</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <i class="bi bi-search"></i>
+        </div>
+
+      </nav>
+      <!-- Light/Dark mode toggle -->
+      <div class="d-flex">
+        <div class="form-check form-switch ms-auto me-4 mb-4">
+          <label class="form-check-label ms-3" for="lightSwitch">
+          </label>
+          <input class="form-check-input" type="checkbox" id="lightSwitch" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content-->
+    <!-- Menus Start-->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="mb-5">MENUS</h2>
+        </div>
+        <div class="tab-class text-center">
+          <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom  mb-5">
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3" data-bs-toggle="pill" href="#tab-1">
+                <i class="fa fa-martini-glass-citrus fa-2x text-warning"></i>
+                <div class="ps-3">
+                  <h6 class="mt-n1 mb-0 text-warning">Beverages</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 pb-3 active" data-bs-toggle="pill" href="#tab-2">
+                <i class="fa fa-drumstick-bite fa-2x text-warning"></i>
+                <div class="ps-3">
+                  <h6 class="mt-n1 mb-0 text-warning">Appetizers</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                <i class="fa fa-utensils fa-2x text-warning"></i>
+                <div class="ps-3">
+                  <h6 class="mt-n1 mb-0 text-warning">Main</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-4">
+                <i class="fa fa-cheese fa-2x text-warning"></i>
+                <div class="ps-3">
+                  <h6 class="mt-n1 mb-0 text-warning">Dessert</h6>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <!-- Beverages tab -->
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Soft Drinks</span>
+                        <span class="text-warning">$4</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Terrace Edge Pinot Noir</span>
+                        <span class="text-warning">$13</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Juice</span>
+                        <span class="text-warning">$4</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Folium Sauvignon Blanc</span>
+                        <span class="text-warning">$11</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Coffee</span>
+                        <span class="text-warning">$4.5</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Pegasus Bay Merlot</span>
+                        <span class="text-warning">$14</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Tea</span>
+                        <span class="text-warning">$3.5</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between pb-2">
+                        <span>Charles Wiffen Chardonnay</span>
+                        <span class="text-warning">$11</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Appetizers tab -->
+            <div id="tab-2" class="tab-pane fade show p-0 active">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Rewena Bread</span>
+                        <span class="text-warning">$10</span>
+                      </h5>
+                      <small class="fst-italic">Traditional M&amacr;ori bread</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Paua Fritter</span>
+                        <span class="text-warning">$16</span>
+                      </h5>
+                      <small class="fst-italic">Finely diced pieces of paua, served with a side salad and horopito
+                        dressing</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Poached Salmon</span>
+                        <span class="text-warning">$22</span>
+                      </h5>
+                      <small class="fst-italic">Salmon poached in an orange and pistachio glaze, served with rewena
+                        bread</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Seafod Basket</span>
+                        <span class="text-warning">$25</span>
+                      </h5>
+                      <small class="fst-italic">Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic
+                        prawns</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Main tab -->
+            <div id="tab-3" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Fish of The Day</span>
+                        <span class="text-warning">$25</span>
+                      </h5>
+                      <small class="fst-italic">Beer-battered fish and kumara fries, served with a side salad and
+                        homemade tartare</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Seafood Chowder</span>
+                        <span class="text-warning">$30</span>
+                      </h5>
+                      <small class="fst-italic">Creamy chowder filled with tarakihi, prawn, hoki, scallops and mussels,
+                        served with flatbread</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Pork Belly</span>
+                        <span class="text-warning">$30</span>
+                      </h5>
+                      <small class="fst-italic">Slow-cooked pork belly served on a bed of apple slaw with roasted kumara
+                        and crispy noodles</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Venison</span>
+                        <span class="text-warning">$33</span>
+                      </h5>
+                      <small class="fst-italic">Venison crusted with Horopito, served with glazed plums, cabbage salad
+                        and red wine jus.</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dessert tab -->
+            <div id="tab-4" class="tab-pane fade show p-0">
+              <div class="row g-4">
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Kapiti Ice Cream</span>
+                        <span class="text-warning">$10</span>
+                      </h5>
+                      <small class="fst-italic">Check for daily specials</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Steamed Pudding</span>
+                        <span class="text-warning">$12</span>
+                      </h5>
+                      <small class="fst-italic">Golden-syrup-flavoured steamed pudding, served with vanilla ice
+                        cream</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Mini Pavlova</span>
+                        <span class="text-warning">$16</span>
+                      </h5>
+                      <small class="fst-italic">Mini pavlova, served with kawakawa and lemon-infused cream and fresh
+                        fruit</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-flex align-items-center">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                      <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span>Banoffee Pie</span>
+                        <span class="text-warning">$16</span>
+                      </h5>
+                      <small class="fst-italic">Toffee, fresh bananas and fresh cream</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menus End -->
+
+    <footer>
+      <p>&copy; The Haukai Restaurant 2022. All rights reserved. </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="switch.js"></script>
+
+</body>
+
+</html>
