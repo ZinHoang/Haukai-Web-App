@@ -54,6 +54,26 @@ color: #ed302f;
     color: #ffc107;  
 }
 
+/* SPINNER */
+.spinner-wrapper {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.spinner-border {
+height: 60px;
+width: 60px;
+}
+
 /* VIDEO */
 .embed-responsive iframe {
   width: 560px;
