@@ -54,6 +54,11 @@ color: #ed302f;
     color: #ffc107;  
 }
 
+/* HAUKAI LOGO */
+.haukai-logo {
+  color:#B08400;
+}
+
 /* SPINNER */
 .spinner-wrapper {
   background-color: white;
@@ -78,6 +83,12 @@ width: 60px;
 .embed-responsive iframe {
   width: 560px;
   height: 315px
+}
+
+/* HOME PAGE IMAGE */
+.home-page-img {
+  width: 1170px;
+  height: 770px;
 }
 
 /* CONTACT PAGE */
@@ -119,9 +130,9 @@ width: 60px;
 }
 
 .custom-theme.bg-dark {
-  background-color: blanchedalmond !important;
+  background-color: blanchedalmond !important; 
   box-shadow: 10px 5px 5px rgba(246, 255, 219, 0.5);
-  color: dimgray;
+  color: dimgray;  
   text-decoration: overline;
 }
 
