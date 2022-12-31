@@ -2,6 +2,12 @@ a {
   text-decoration: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /*RESPONSIVE*/
 @media (max-width: 991px) {
   .contact-form {
@@ -13,20 +19,13 @@ a {
   }
 }
 
-@media (min-width: 991px) {
-  .footer {    
-    bottom: 0;
-    margin: auto;    
-  }  
-}
-
 /* FOOTER */
 footer {
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  border-top: 0.1rem solid #3e485c;   
+  border-top: 0.1rem solid #3e485c;    
 }
 
 footer ul {  
