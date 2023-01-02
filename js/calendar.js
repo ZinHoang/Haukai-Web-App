@@ -19,6 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         title: 'Closed',
         daysOfWeek: [4, 5, 6],
         start: '2022-12-28',
+        backgroundColor: '#d9534f',
+        borderColor: '#d9534f',
       },
     ],
   })
