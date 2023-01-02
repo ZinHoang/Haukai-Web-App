@@ -1,12 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var calendarEl = document.getElementById('roster')
+  var calendarEl = document.getElementById('roster-calendar')
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
     initialDate: '2022-12-28',
-    // contentHeight: 600,
-    // height: 650,
-    aspectRatio: 3,
+    height: 400,
     headerToolbar: {
       left: 'prev,next today',
       center: 'title',
