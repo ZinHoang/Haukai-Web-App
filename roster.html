@@ -161,6 +161,18 @@
         <script src="js/switch.js"></script>
         <script src="js/roster.js"></script>
         <script src="js/spinner.js"></script>
+        <!-- Asking for password to view the roster page -->
+        <script>
+          var password;
+          var mypass = 'Whatismypass';
+          password = prompt('Enter password to view the roster', '');
+          if (password === mypass)
+            alert('Correct password. Click OK to proceed.')
+          else {
+            alert('Incorrect password. You are being redirected to the home page')
+            window.location = 'https://haukai.netlify.app/'
+          } 
+        </script>
 </body>
 
 </html>
